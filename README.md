@@ -2,7 +2,7 @@
 ## **Преподаватель**: Парыгин Данила Сергеевич
 ## **Кафедра**: САПР и ПК
 ___
-## **Нефункциональные требование**: [Unity](https://unity.com/), [OpenStreetMap](https://www.openstreetmap.org/#map=3/59.90/89.71), C#
+## **Нефункциональные требование**: [Unity](https://unity.com/), [OpenStreetMap](https://www.openstreetmap.org/#map=3/59.90/89.71), [C#](https://docs.microsoft.com/ru-ru/dotnet/csharp/)
 ## **Функциональные требование**: 
 
 * Трасса на основе дорог реального города
