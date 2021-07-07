@@ -17,6 +17,7 @@ class RoadMaker : InfrastructureBehaviour
         foreach (var way in map.ways.FindAll((w) => { return w.IsRoad; }))
         {
             GameObject go = new GameObject();
+            go.tag = "Road";
             Vector3 localOrigin = GetCentre(way);
             go.transform.position = localOrigin - map.bounds.Centre;
 
