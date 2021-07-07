@@ -62,15 +62,15 @@
 5. На улицах города добавлены деревья.
 
 ## Новые скриншоты
-![Работа программы](https://github.com/bigwitch3r/VolgaRacing/blob/master/Screenshots/4.jpg)
+![Работа программы](https://github.com/Tamerlan91011/AUTO_RACE_UNITY/blob/main/Screenshots/4.jpg)
 
-![Работа программы](https://github.com/bigwitch3r/VolgaRacing/blob/master/Screenshots/5.jpg)
+![Работа программы](https://github.com/Tamerlan91011/AUTO_RACE_UNITY/blob/main/Screenshots/5.jpg)
 
-![Работа программы](https://github.com/bigwitch3r/VolgaRacing/blob/master/Screenshots/6.jpg)
+![Работа программы](https://github.com/Tamerlan91011/AUTO_RACE_UNITY/blob/main/Screenshots/6.jpg)
 
 ## Старые скриншоты
-![Работа программы](https://github.com/bigwitch3r/VolgaRacing/blob/master/Screenshots/1.jpg)
+![Работа программы](https://github.com/Tamerlan91011/AUTO_RACE_UNITY/blob/main/Screenshots/1.jpg)
 
-![Работа программы](https://github.com/bigwitch3r/VolgaRacing/blob/master/Screenshots/2.jpg)
+![Работа программы](https://github.com/Tamerlan91011/AUTO_RACE_UNITY/blob/main/Screenshots/2.jpg)
 
-![Работа программы](https://github.com/bigwitch3r/VolgaRacing/blob/master/Screenshots/3.jpg)
+![Работа программы](https://github.com/Tamerlan91011/AUTO_RACE_UNITY/blob/main/Screenshots/3.jpg)
