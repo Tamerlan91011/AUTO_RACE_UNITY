@@ -9,7 +9,7 @@ class BuildingMaker : InfrastructureBehaviour
 
 
     public Material building;
-    public Material grass;
+    public Material roofmat;
 
     IEnumerator Start()
     {
@@ -52,7 +52,7 @@ class BuildingMaker : InfrastructureBehaviour
             MeshRenderer mr1 = roof.AddComponent<MeshRenderer>();
 
             mr.material = building;
-            mr1.material = building;
+            mr1.material = roofmat;
 
             List<Vector3> vectors = new List<Vector3>();
             List<Vector3> rvectors = new List<Vector3>();
@@ -63,6 +63,7 @@ class BuildingMaker : InfrastructureBehaviour
             Vector3[] roofVectors;
             int[] roofTriangles;
             Vector2[] roofUV;
+            List<Vector3> nrmls = new List<Vector3>();
 
             int verticesCount = way.NodeIDs.Count;
 
@@ -75,7 +76,7 @@ class BuildingMaker : InfrastructureBehaviour
                 rvectors.Add(low_vertex3);
             }
 
-            Triangulation.GetResult(rvectors, false, Vector3.up, out roofVectors, out roofTriangles, out roofUV);
+            Triangulation.GetResult(rvectors, true, Vector3.up, out roofVectors, out roofTriangles, out roofUV);
 
             for (int i = 1; i < way.NodeIDs.Count; i++)
             {
@@ -138,12 +139,15 @@ class BuildingMaker : InfrastructureBehaviour
             mf.mesh.uv = uvs.ToArray();
 
             mf1.mesh.vertices = roofVectors;
+            mf1.mesh.normals = nrmls.ToArray();
             mf1.mesh.RecalculateNormals();
             mf1.mesh.RecalculateBounds();
             mf1.mesh.triangles = roofTriangles;
+
             mf1.mesh.uv = roofUV;
 
             go.AddComponent<MeshCollider>();
+            roof.AddComponent<MeshCollider>();
         }
     }
 

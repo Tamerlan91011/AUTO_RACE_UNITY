@@ -44,7 +44,7 @@ class RoadMaker : InfrastructureBehaviour
 
                 Vector3 diff = (s2 - s1).normalized;
 
-                var cross = Vector3.Cross(diff, Vector3.up) * 2.0f; // 2 метра = ширина дороги
+                var cross = Vector3.Cross(diff, Vector3.up) * 5.0f; // 2 метра = ширина дороги
 
                 Vector3 v1 = s1 + cross;
                 Vector3 v2 = s1 - cross;
@@ -96,6 +96,8 @@ class RoadMaker : InfrastructureBehaviour
             mf.mesh.normals = normals.ToArray();
             mf.mesh.triangles = indicies.ToArray();
             mf.mesh.uv = uvs.ToArray();
+
+            go.AddComponent<MeshCollider>();
 
             yield return null;
         }

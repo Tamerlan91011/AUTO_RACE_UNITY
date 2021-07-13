@@ -312,7 +312,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!154 &1117253940
 TerrainCollider:
@@ -349,7 +349,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 255436391f9524147a37a599920b6a29, type: 2}
+  m_MaterialTemplate: {fileID: 2100000, guid: ae29ac02d08992344b9095971167e1c6, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -430,8 +430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7472d31fcf2c8504ebbffad86ccf9ada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  building: {fileID: 2100000, guid: e2c840c1583ce774a8ec106e4f4be702, type: 2}
-  grass: {fileID: 2100000, guid: b72ce959d3444274083c597872611880, type: 2}
+  building: {fileID: 2100000, guid: 00773ef69a2a81f4fab18033027a6b90, type: 2}
+  roofmat: {fileID: 2100000, guid: f585e1d7a595b4947a606c5217360c0d, type: 2}
 --- !u!114 &1124994550
 MonoBehaviour:
   m_ObjectHideFlags: 0
